@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ckd.ckdhcapp",
+      "sha256_cert_fingerprints":
+        ["3F:A6:7D:53:4C:E9:37:19:D0:22:52:11:11:06:6E:7A:98:EC:83:0C:F6:C7:1F:D8:FA:6E:89:82:F9:53:2D:24"]
+    }
+  }
+]
