@@ -1,26 +1,11 @@
 {
   "applinks": {
-    "apps": [],
-    "details": [
+      "apps": [],
+      "details": [
       {
-        "appIDs": [
-          "9TTF5N3995.com.ckd.ckdhcapp"
-        ],
-        "paths": [
-          "*"
-        ],
-        "components": [
-          {
-            "/": "/*"
-          }
-        ]
+        "appID": "9TTF5N3995.com.ckd.ckdhcapp",
+        "paths": ["*"]
       }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "9TTF5N3995.com.ckd.ckdhcapp"
     ]
   }
 }
-
