@@ -3,6 +3,19 @@
 <head>
     <title>Your Website Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        window.onload = function() {
+            var visitTime = (new Date()).getTime();
+
+            var isAndroid = /android/i.test(navigator.userAgent);
+            var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isAndroid) {
+                location.href = "https://play.google.com/store/apps/details?id=com.ckd.ckdhcapp";
+            } else if (isiOS) {
+                location.href = "https://itunes.apple.com/app/id6445975876";
+            }
+        }
+    </script>
     <meta http-equiv="refresh" content="0; url=https://ckdcare.link/deeplink">
 </head>
 <body>
