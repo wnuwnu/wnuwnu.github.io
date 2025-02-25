@@ -9,15 +9,18 @@
     <h1>AppLink Test</h1>
     <p>This is an example of a website that redirects users to the YouTube app's page on the App Store or Play Store, depending on their device.</p>
 
-
- <h2>Universal Link 테스트</h2>
+    <h2>Universal Link 테스트</h2>
 
     <!-- 잘못된 방식: 자동 리디렉션 -->
     <button onclick="redirectAutomatically()">❌ 자동 리디렉션 (앱 실행 불가)</button>
-    
+
     <script>
         function redirectAutomatically() {
             window.location.href = "https://ckdcare.link/deeplink"; // Universal Link
+        }
+
+        function goStore() {
+            location.href = "/deeplink"; // 사용자가 클릭하면 실행됨
         }
     </script>
 
@@ -28,5 +31,11 @@
         <button>✅ 직접 클릭 (앱 실행 가능)</button>
     </a>
 
+    <br><br>
+
+    <!-- 추가된 버튼: goStore 함수 실행 -->
+    <button onclick="goStore()">🛍️ goStore 실행</button>
+
 </body>
 </html>
+
